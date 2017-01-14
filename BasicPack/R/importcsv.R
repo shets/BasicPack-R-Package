@@ -1,6 +1,11 @@
-#BasicPack is the first step towards making data science more userfriendly and easie.
-#This BasicPack automatecally detact and import train and test dataset(only of csv format)
-
+#'  BasicPack Function
+#' 
+#'  BasicPack is the first step towards making data science more userfriendly and easie.This BasicPack automatecally detact and import train and test dataset(only of csv format)
+#' @param None
+#' @keywords importcsv
+#' @export
+#' @examples
+#' BasicPack()
 BasicPack <- function() {
   path <- readline(prompt = "Enter the path of your working directory: ")
   setwd(path)
